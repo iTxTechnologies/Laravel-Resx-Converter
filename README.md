@@ -56,3 +56,9 @@ in a blade file or:
 in a php block. 
 
 Please note that the file names are all lowercased during the conversion but not the string name
+
+
+
+Brought to you by:
+
+![iTx-Technologies Logo](http://www.itx-technologies.com/sites/default/files/itx-technologies.png)
