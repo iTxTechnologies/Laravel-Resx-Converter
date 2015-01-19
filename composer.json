@@ -1,0 +1,20 @@
+{
+    "name": "itx-technologies/artisan-resx-to-lang",
+    "description": "",
+    "authors": [
+        {
+            "name": "Philippe Gilbert",
+            "email": "philippe@itx-technologies.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ItxTechnologies\\ArtisanResxToLang": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
