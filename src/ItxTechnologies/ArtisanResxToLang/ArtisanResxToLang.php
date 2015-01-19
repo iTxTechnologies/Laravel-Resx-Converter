@@ -44,7 +44,7 @@ class ArtisanResxToLang extends Command {
 
 		// Load the default language for the app to know which files are what languages
 
-		$defaultLang = App::getLocale();
+		$defaultLang = Config::get('app.fallback_locale');
 
 		// and remove if from the db
 

@@ -27,7 +27,7 @@ You can then call `php artisan` to see the installed resxToLang command
 ## Usage
 
 First of all, make sure that the folders for every language you are trying to convert are present in your `/app/lang` directory.
-Then, make sure that the base language, the one in the flat [name].resx files, is set as your default locale and fallback locale in `/app/config/app.php`. 
+Then, make sure that the base language, the one in the flat [name].resx files, is set as your fallback locale in `/app/config/app.php`. 
 Finally, transfer your .resx files in a folder called `resx` in your `public` folder. When that is done, simply call the command from the command line:
 
 ```
