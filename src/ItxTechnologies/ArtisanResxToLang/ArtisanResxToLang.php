@@ -96,7 +96,7 @@ class ArtisanResxToLang extends Command {
 
 			foreach ($resx->data as $node) {
 				// create the key value array from the name attribute and the value
-				$file_content .= $tab . '"' . $node->attributes()->name . '" => "' . str_replace('"', '\"', $node->value) . '",' . $enter . $tab;
+				$file_content .= $tab . '"' . $node->attributes()->name . '" => "' . htmlentities(str_replace('"', '\"', $node->value)) . '",' . $enter . $tab;
 
 				// let's not make them wait
 
