@@ -6,7 +6,7 @@ Convert your .NET resource files to Laravel language files
 The first step is to install the package through `Composer`, for that require `"itx-technologies/artisan-resx-to-lang"` in your `composer.json` file
 ```
   "require-dev": {
-    "way/generators": "~2.0"
+    "itx-technologies/artisan-resx-to-lang": "~2.0"
   }
 ```
 
